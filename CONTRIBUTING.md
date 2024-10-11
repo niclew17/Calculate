@@ -32,5 +32,3 @@ Remember, the goal is to practice using Git and GitHub, so don't worry too much 
 ## Questions?
 
 If you have any questions, feel free to open an issue or contact the repository owner.
-
-Happy coding!
