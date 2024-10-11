@@ -1,5 +1,3 @@
-Here's a step-by-step tutorial to help students contribute to an open source project on GitHub:
-
 ## How to Make Your First Open Source Contribution on GitHub
 
 ### Setting Up
