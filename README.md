@@ -1,118 +1,83 @@
-## How to Make Your First Open Source Contribution on GitHub
+## Contributing to the Command Line Calculator Project
 
-### Setting Up
+Welcome, students! This tutorial will guide you through the process of contributing to our open-source command line calculator project.
 
-1. Create a GitHub account if you don't already have one.
+### Project Overview
 
-2. Install Git on your local machine.
+Our calculator (https://github.com/niclew17/Calculate) has basic arithmetic operations, but there's a bug that needs fixing, and we want to expand its capabilities by adding a power function[1].
 
-3. Configure Git with your name and email:
+### Step 1: Fork and Clone the Repository
 
-```bash
-git config --global user.name "Your Name"
-git config --global user.email "youremail@example.com"
-```
-
-### Finding a Project
-
-1. Explore GitHub to find a project that interests you. Some good places to start:
-   - GitHub Explore
-   - First Timers Only
-   - Up For Grabs
-
-2. Look for projects with labels like "good first issue" or "beginner-friendly"[2].
-
-### Forking and Cloning
-
-1. On the project's GitHub page, click the "Fork" button in the top-right corner. This creates a copy of the repository in your account[4].
-
-2. Clone your forked repository to your local machine:
+1. Go to https://github.com/niclew17/Calculate
+2. Click the "Fork" button in the top-right corner to create a copy in your account.
+3. Clone your forked repository to your local machine:
 
 ```bash
-git clone https://github.com/your-username/repository-name.git
+git clone https://github.com/your-username/Calculate.git
+cd Calculate
 ```
 
-3. Navigate to the project directory:
+### Step 2: Create a New Branch
+
+Create a new branch for your changes:
 
 ```bash
-cd repository-name
+git checkout -b fix-bug-and-add-power
 ```
 
-### Creating a Branch
+### Step 3: Identify and Fix the Bug
 
-1. Create a new branch for your changes:
+1. Open the `Calculate` file in your text editor.
+2. Run the calculator and test all functions to identify the bug.
+3. Once you've found the bug, implement a fix.
+
+### Step 4: Add Power Functionality
+
+1. Implement a new function to calculate x raised to the power of y.
+2. Update the main calculator logic to include this new operation.
+
+### Step 5: Test Your Changes
+
+Run the calculator script and thoroughly test both your bug fix and the new power function to ensure they work correctly.
+
+### Step 6: Commit Your Changes
+
+Stage and commit your changes:
 
 ```bash
-git checkout -b your-branch-name
+git add Calculate
+git commit -m "Fix bug and add power functionality"
 ```
 
-Name your branch something descriptive, like "fix-typo-in-readme"[4].
+### Step 7: Push Your Changes
 
-### Making Changes
-
-1. Open the project in your preferred text editor or IDE.
-
-2. Make the changes you want to contribute. Start small - fixing a typo or updating documentation is a great first contribution[2].
-
-### Committing Changes
-
-1. Stage your changes:
+Push your changes to your forked repository:
 
 ```bash
-git add .
+git push origin fix-bug-and-add-power
 ```
 
-2. Commit your changes with a descriptive message:
-
-```bash
-git commit -m "Brief description of your changes"
-```
-
-### Pushing Changes
-
-1. Push your changes to your forked repository:
-
-```bash
-git push origin your-branch-name
-```
-
-### Creating a Pull Request
+### Step 8: Create a Pull Request
 
 1. Go to your forked repository on GitHub.
-
-2. Click on "Pull requests" and then "New pull request".
-
+2. Click "Pull requests" and then "New pull request".
 3. Ensure the base repository is the original project and the head repository is your fork.
-
 4. Click "Create pull request".
-
-5. Add a title and description for your pull request, explaining your changes[6].
-
-6. Click "Create pull request" again to submit.
-
-### Following Up
-
-1. The project maintainers may ask for changes. If so, make the changes locally, commit, and push them to your fork. The pull request will update automatically.
-
-2. Be patient and respectful. Maintainers are often volunteers and may take time to review your contribution[5].
-
-3. If your pull request is accepted, congratulations! You've made your first open source contribution.
+5. Add a title and description explaining your changes.
+6. Submit the pull request.
 
 ### Best Practices
 
-- Always read the project's CONTRIBUTING.md file (if available) for specific guidelines[5].
-- Be polite and respectful in all interactions.
-- Start small. It's better to make several small contributions than one large one[2].
-- Don't be discouraged if your first pull request isn't accepted. It's all part of the learning process.
+- Write clear, concise commit messages.
+- Follow the existing code style and conventions.
+- Test your changes thoroughly before submitting.
+- Be responsive to feedback and be prepared to make additional changes if requested.
 
-Remember, every expert was once a beginner. With patience and persistence, you'll become a valuable contributor to the open source community. Happy coding!
+### Conclusion
+
+By following these steps, you'll contribute to an open-source project by fixing a bug and adding new functionality. This process is typical for many open-source contributions. Remember, the goal is to learn and improve your skills through practical experience.
+
+Happy coding, and thank you for your contribution!
 
 Citations:
-[1] https://github.com/firstcontributions/first-contributions/actions
-[2] https://daily.dev/blog/how-to-contribute-to-open-source-github-repositories
-[3] https://docs.github.com/en/get-started/exploring-projects-on-github/finding-ways-to-contribute-to-open-source-on-github
-[4] https://www.dataschool.io/how-to-contribute-on-github/
-[5] https://opensource.guide/how-to-contribute/
-[6] https://www.freecodecamp.org/news/git-and-github-workflow-for-open-source/
-[7] https://docs.github.com/en/get-started/exploring-projects-on-github/contributing-to-a-project
-[8] https://github.com/freeCodeCamp/how-to-contribute-to-open-source
+[1] https://github.com/niclew17/Calculate
