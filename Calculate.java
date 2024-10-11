@@ -5,7 +5,7 @@ public class Calculate {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        // Display the menu
+        // Display the menu (add a power operation)
         System.out.println("Welcome to the Command-Line Calculator");
         System.out.println("Select an operation:");
         System.out.println("1. Addition (+)");
@@ -24,13 +24,11 @@ public class Calculate {
         System.out.print("Enter the second number: ");
         double num2 = scanner.nextDouble();
 
-        // Perform the chosen operation
+        // Perform the chosen operation (fix a bug)
         double result = 0;
-        boolean validChoice = true;
-
         switch (choice) {
             case 1:
-                result = num1 + num2;
+                result = num1 * num2;
                 System.out.println("Result: " + num1 + " + " + num2 + " = " + result);
                 break;
             case 2:
@@ -50,7 +48,6 @@ public class Calculate {
                 }
                 break;
             default:
-                validChoice = false;
                 System.out.println("Error: Invalid choice. Please select a valid operation.");
         }
 
