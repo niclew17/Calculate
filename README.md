@@ -4,7 +4,7 @@ Welcome, students! This tutorial will guide you through the process of contribut
 
 ### Project Overview
 
-Our calculator (https://github.com/niclew17/Calculate) has basic arithmetic operations, but there's a bug that needs fixing, and we want to expand its capabilities by adding a power function[1].
+Our calculator (https://github.com/niclew17/Calculate) has basic arithmetic operations, but there's a bug that needs fixing, and we want to expand its capabilities by adding a new math function.
 
 ### Step 1: Fork and Clone the Repository
 
@@ -46,7 +46,7 @@ Stage and commit your changes:
 
 ```bash
 git add Calculate
-git commit -m "Fix bug and add power functionality"
+git commit -m "Fix bug and add extra functionality"
 ```
 
 ### Step 7: Push Your Changes
@@ -54,7 +54,7 @@ git commit -m "Fix bug and add power functionality"
 Push your changes to your forked repository:
 
 ```bash
-git push origin fix-bug-and-add-power
+git push origin fix-bug-and-add-functionality
 ```
 
 ### Step 8: Create a Pull Request
@@ -78,6 +78,3 @@ git push origin fix-bug-and-add-power
 By following these steps, you'll contribute to an open-source project by fixing a bug and adding new functionality. This process is typical for many open-source contributions. Remember, the goal is to learn and improve your skills through practical experience.
 
 Happy coding, and thank you for your contribution!
-
-Citations:
-[1] https://github.com/niclew17/Calculate
