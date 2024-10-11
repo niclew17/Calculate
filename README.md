@@ -31,9 +31,9 @@ git checkout -b fix-bug-and-add-power
 2. Run the calculator and test all functions to identify the bug.
 3. Once you've found the bug, implement a fix.
 
-### Step 4: Add Power Functionality
+### Step 4: Add Additional Functionality
 
-1. Implement a new function to calculate x raised to the power of y.
+1. Implement a new function of your choosing to calculate (pow, mod, avg, etc).
 2. Update the main calculator logic to include this new operation.
 
 ### Step 5: Test Your Changes
